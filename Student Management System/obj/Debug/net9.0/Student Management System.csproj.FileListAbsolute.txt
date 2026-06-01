@@ -1,0 +1,97 @@
+C:\Users\USER\OneDrive\Desktop\My CV Add Project\Student Management System\Student Management System\bin\Debug\net9.0\appsettings.Development.json
+C:\Users\USER\OneDrive\Desktop\My CV Add Project\Student Management System\Student Management System\bin\Debug\net9.0\appsettings.json
+C:\Users\USER\OneDrive\Desktop\My CV Add Project\Student Management System\Student Management System\bin\Debug\net9.0\Student Management System.staticwebassets.runtime.json
+C:\Users\USER\OneDrive\Desktop\My CV Add Project\Student Management System\Student Management System\bin\Debug\net9.0\Student Management System.staticwebassets.endpoints.json
+C:\Users\USER\OneDrive\Desktop\My CV Add Project\Student Management System\Student Management System\bin\Debug\net9.0\Student Management System.exe
+C:\Users\USER\OneDrive\Desktop\My CV Add Project\Student Management System\Student Management System\bin\Debug\net9.0\Student Management System.deps.json
+C:\Users\USER\OneDrive\Desktop\My CV Add Project\Student Management System\Student Management System\bin\Debug\net9.0\Student Management System.runtimeconfig.json
+C:\Users\USER\OneDrive\Desktop\My CV Add Project\Student Management System\Student Management System\bin\Debug\net9.0\Student Management System.dll
+C:\Users\USER\OneDrive\Desktop\My CV Add Project\Student Management System\Student Management System\bin\Debug\net9.0\Student Management System.pdb
+C:\Users\USER\OneDrive\Desktop\My CV Add Project\Student Management System\Student Management System\obj\Debug\net9.0\rpswa.dswa.cache.json
+C:\Users\USER\OneDrive\Desktop\My CV Add Project\Student Management System\Student Management System\obj\Debug\net9.0\Student Management System.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\OneDrive\Desktop\My CV Add Project\Student Management System\Student Management System\obj\Debug\net9.0\Student Management System.AssemblyInfoInputs.cache
+C:\Users\USER\OneDrive\Desktop\My CV Add Project\Student Management System\Student Management System\obj\Debug\net9.0\Student Management System.AssemblyInfo.cs
+C:\Users\USER\OneDrive\Desktop\My CV Add Project\Student Management System\Student Management System\obj\Debug\net9.0\Student Management System.csproj.CoreCompileInputs.cache
+C:\Users\USER\OneDrive\Desktop\My CV Add Project\Student Management System\Student Management System\obj\Debug\net9.0\Student Management System.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\USER\OneDrive\Desktop\My CV Add Project\Student Management System\Student Management System\obj\Debug\net9.0\Student Management System.RazorAssemblyInfo.cache
+C:\Users\USER\OneDrive\Desktop\My CV Add Project\Student Management System\Student Management System\obj\Debug\net9.0\Student Management System.RazorAssemblyInfo.cs
+C:\Users\USER\OneDrive\Desktop\My CV Add Project\Student Management System\Student Management System\obj\Debug\net9.0\rjimswa.dswa.cache.json
+C:\Users\USER\OneDrive\Desktop\My CV Add Project\Student Management System\Student Management System\obj\Debug\net9.0\rjsmrazor.dswa.cache.json
+C:\Users\USER\OneDrive\Desktop\My CV Add Project\Student Management System\Student Management System\obj\Debug\net9.0\rjsmcshtml.dswa.cache.json
+C:\Users\USER\OneDrive\Desktop\My CV Add Project\Student Management System\Student Management System\obj\Debug\net9.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\USER\OneDrive\Desktop\My CV Add Project\Student Management System\Student Management System\obj\Debug\net9.0\scopedcss\bundle\Student Management System.styles.css
+C:\Users\USER\OneDrive\Desktop\My CV Add Project\Student Management System\Student Management System\obj\Debug\net9.0\scopedcss\projectbundle\Student Management System.bundle.scp.css
+C:\Users\USER\OneDrive\Desktop\My CV Add Project\Student Management System\Student Management System\obj\Debug\net9.0\compressed\b5r66y4o45-b9sayid5wm.gz
+C:\Users\USER\OneDrive\Desktop\My CV Add Project\Student Management System\Student Management System\obj\Debug\net9.0\compressed\k2xwrft6zv-61n19gt1b8.gz
+C:\Users\USER\OneDrive\Desktop\My CV Add Project\Student Management System\Student Management System\obj\Debug\net9.0\compressed\uo2q11y340-xtxxf3hu2r.gz
+C:\Users\USER\OneDrive\Desktop\My CV Add Project\Student Management System\Student Management System\obj\Debug\net9.0\compressed\30rtwzgf23-bqjiyaj88i.gz
+C:\Users\USER\OneDrive\Desktop\My CV Add Project\Student Management System\Student Management System\obj\Debug\net9.0\compressed\wqnosbxn4x-c2jlpeoesf.gz
+C:\Users\USER\OneDrive\Desktop\My CV Add Project\Student Management System\Student Management System\obj\Debug\net9.0\compressed\f2vmxvejdj-erw9l3u2r3.gz
+C:\Users\USER\OneDrive\Desktop\My CV Add Project\Student Management System\Student Management System\obj\Debug\net9.0\compressed\zjhtp13m5n-aexeepp0ev.gz
+C:\Users\USER\OneDrive\Desktop\My CV Add Project\Student Management System\Student Management System\obj\Debug\net9.0\compressed\ra5w361pg6-d7shbmvgxk.gz
+C:\Users\USER\OneDrive\Desktop\My CV Add Project\Student Management System\Student Management System\obj\Debug\net9.0\compressed\u2nrrhocrw-ausgxo2sd3.gz
+C:\Users\USER\OneDrive\Desktop\My CV Add Project\Student Management System\Student Management System\obj\Debug\net9.0\compressed\pjh70x4331-k8d9w2qqmf.gz
+C:\Users\USER\OneDrive\Desktop\My CV Add Project\Student Management System\Student Management System\obj\Debug\net9.0\compressed\kcdjhalw46-cosvhxvwiu.gz
+C:\Users\USER\OneDrive\Desktop\My CV Add Project\Student Management System\Student Management System\obj\Debug\net9.0\compressed\q10eineudi-ub07r2b239.gz
+C:\Users\USER\OneDrive\Desktop\My CV Add Project\Student Management System\Student Management System\obj\Debug\net9.0\compressed\uuxnnj7wcq-fvhpjtyr6v.gz
+C:\Users\USER\OneDrive\Desktop\My CV Add Project\Student Management System\Student Management System\obj\Debug\net9.0\compressed\b5yizzhlob-b7pk76d08c.gz
+C:\Users\USER\OneDrive\Desktop\My CV Add Project\Student Management System\Student Management System\obj\Debug\net9.0\compressed\of24k5sj5q-fsbi9cje9m.gz
+C:\Users\USER\OneDrive\Desktop\My CV Add Project\Student Management System\Student Management System\obj\Debug\net9.0\compressed\eo87tmwsq4-rzd6atqjts.gz
+C:\Users\USER\OneDrive\Desktop\My CV Add Project\Student Management System\Student Management System\obj\Debug\net9.0\compressed\2z52mm30hg-ee0r1s7dh0.gz
+C:\Users\USER\OneDrive\Desktop\My CV Add Project\Student Management System\Student Management System\obj\Debug\net9.0\compressed\rz6slzxnfr-dxx9fxp4il.gz
+C:\Users\USER\OneDrive\Desktop\My CV Add Project\Student Management System\Student Management System\obj\Debug\net9.0\compressed\uw5t90ar3z-jd9uben2k1.gz
+C:\Users\USER\OneDrive\Desktop\My CV Add Project\Student Management System\Student Management System\obj\Debug\net9.0\compressed\745ukg0kjs-khv3u5hwcm.gz
+C:\Users\USER\OneDrive\Desktop\My CV Add Project\Student Management System\Student Management System\obj\Debug\net9.0\compressed\0noe5vpdwn-r4e9w2rdcm.gz
+C:\Users\USER\OneDrive\Desktop\My CV Add Project\Student Management System\Student Management System\obj\Debug\net9.0\compressed\1zszbkr1z3-lcd1t2u6c8.gz
+C:\Users\USER\OneDrive\Desktop\My CV Add Project\Student Management System\Student Management System\obj\Debug\net9.0\compressed\6b95pfkae8-c2oey78nd0.gz
+C:\Users\USER\OneDrive\Desktop\My CV Add Project\Student Management System\Student Management System\obj\Debug\net9.0\compressed\lxdas8ltef-tdbxkamptv.gz
+C:\Users\USER\OneDrive\Desktop\My CV Add Project\Student Management System\Student Management System\obj\Debug\net9.0\compressed\k2lu36ja0z-j5mq2jizvt.gz
+C:\Users\USER\OneDrive\Desktop\My CV Add Project\Student Management System\Student Management System\obj\Debug\net9.0\compressed\r0ukoje3k8-06098lyss8.gz
+C:\Users\USER\OneDrive\Desktop\My CV Add Project\Student Management System\Student Management System\obj\Debug\net9.0\compressed\hqqq7pdzi9-nvvlpmu67g.gz
+C:\Users\USER\OneDrive\Desktop\My CV Add Project\Student Management System\Student Management System\obj\Debug\net9.0\compressed\yp3bi9m24r-s35ty4nyc5.gz
+C:\Users\USER\OneDrive\Desktop\My CV Add Project\Student Management System\Student Management System\obj\Debug\net9.0\compressed\qohx0tr3ex-pj5nd1wqec.gz
+C:\Users\USER\OneDrive\Desktop\My CV Add Project\Student Management System\Student Management System\obj\Debug\net9.0\compressed\b1vu1lrq2n-46ein0sx1k.gz
+C:\Users\USER\OneDrive\Desktop\My CV Add Project\Student Management System\Student Management System\obj\Debug\net9.0\compressed\zhf5zjd9ct-v0zj4ognzu.gz
+C:\Users\USER\OneDrive\Desktop\My CV Add Project\Student Management System\Student Management System\obj\Debug\net9.0\compressed\yue1poe9m9-37tfw0ft22.gz
+C:\Users\USER\OneDrive\Desktop\My CV Add Project\Student Management System\Student Management System\obj\Debug\net9.0\compressed\3o376zowu5-hrwsygsryq.gz
+C:\Users\USER\OneDrive\Desktop\My CV Add Project\Student Management System\Student Management System\obj\Debug\net9.0\compressed\cpalum2n1v-pk9g2wxc8p.gz
+C:\Users\USER\OneDrive\Desktop\My CV Add Project\Student Management System\Student Management System\obj\Debug\net9.0\compressed\ly93ef4wgo-ft3s53vfgj.gz
+C:\Users\USER\OneDrive\Desktop\My CV Add Project\Student Management System\Student Management System\obj\Debug\net9.0\compressed\2ox0x2illg-6cfz1n2cew.gz
+C:\Users\USER\OneDrive\Desktop\My CV Add Project\Student Management System\Student Management System\obj\Debug\net9.0\compressed\cwziv5kcu1-6pdc2jztkx.gz
+C:\Users\USER\OneDrive\Desktop\My CV Add Project\Student Management System\Student Management System\obj\Debug\net9.0\compressed\vp4aoouvqh-493y06b0oq.gz
+C:\Users\USER\OneDrive\Desktop\My CV Add Project\Student Management System\Student Management System\obj\Debug\net9.0\compressed\ekl2a5cftq-iovd86k7lj.gz
+C:\Users\USER\OneDrive\Desktop\My CV Add Project\Student Management System\Student Management System\obj\Debug\net9.0\compressed\oiia0ca9p4-vr1egmr9el.gz
+C:\Users\USER\OneDrive\Desktop\My CV Add Project\Student Management System\Student Management System\obj\Debug\net9.0\compressed\ecocoa2unq-kbrnm935zg.gz
+C:\Users\USER\OneDrive\Desktop\My CV Add Project\Student Management System\Student Management System\obj\Debug\net9.0\compressed\b12efas6ba-jj8uyg4cgr.gz
+C:\Users\USER\OneDrive\Desktop\My CV Add Project\Student Management System\Student Management System\obj\Debug\net9.0\compressed\smctoyyfw4-y7v9cxd14o.gz
+C:\Users\USER\OneDrive\Desktop\My CV Add Project\Student Management System\Student Management System\obj\Debug\net9.0\compressed\aeqz9pziv5-notf2xhcfb.gz
+C:\Users\USER\OneDrive\Desktop\My CV Add Project\Student Management System\Student Management System\obj\Debug\net9.0\compressed\pvmte1ycl0-h1s4sie4z3.gz
+C:\Users\USER\OneDrive\Desktop\My CV Add Project\Student Management System\Student Management System\obj\Debug\net9.0\compressed\tumlr0iogp-63fj8s7r0e.gz
+C:\Users\USER\OneDrive\Desktop\My CV Add Project\Student Management System\Student Management System\obj\Debug\net9.0\compressed\diz27z7ggz-0j3bgjxly4.gz
+C:\Users\USER\OneDrive\Desktop\My CV Add Project\Student Management System\Student Management System\obj\Debug\net9.0\compressed\gbkovvryuh-47otxtyo56.gz
+C:\Users\USER\OneDrive\Desktop\My CV Add Project\Student Management System\Student Management System\obj\Debug\net9.0\compressed\la9c6cajq1-4v8eqarkd7.gz
+C:\Users\USER\OneDrive\Desktop\My CV Add Project\Student Management System\Student Management System\obj\Debug\net9.0\compressed\r9528jzoif-356vix0kms.gz
+C:\Users\USER\OneDrive\Desktop\My CV Add Project\Student Management System\Student Management System\obj\Debug\net9.0\compressed\w9crncaup7-83jwlth58m.gz
+C:\Users\USER\OneDrive\Desktop\My CV Add Project\Student Management System\Student Management System\obj\Debug\net9.0\compressed\vwiq8xb7yo-mrlpezrjn3.gz
+C:\Users\USER\OneDrive\Desktop\My CV Add Project\Student Management System\Student Management System\obj\Debug\net9.0\compressed\ju0ixllg6l-lzl9nlhx6b.gz
+C:\Users\USER\OneDrive\Desktop\My CV Add Project\Student Management System\Student Management System\obj\Debug\net9.0\compressed\1wzr67jj0j-ag7o75518u.gz
+C:\Users\USER\OneDrive\Desktop\My CV Add Project\Student Management System\Student Management System\obj\Debug\net9.0\compressed\oozyp7yivo-x0q3zqp4vz.gz
+C:\Users\USER\OneDrive\Desktop\My CV Add Project\Student Management System\Student Management System\obj\Debug\net9.0\compressed\ssh83197za-0i3buxo5is.gz
+C:\Users\USER\OneDrive\Desktop\My CV Add Project\Student Management System\Student Management System\obj\Debug\net9.0\compressed\yaeqvth3ou-o1o13a6vjx.gz
+C:\Users\USER\OneDrive\Desktop\My CV Add Project\Student Management System\Student Management System\obj\Debug\net9.0\compressed\50r600gfq7-ttgo8qnofa.gz
+C:\Users\USER\OneDrive\Desktop\My CV Add Project\Student Management System\Student Management System\obj\Debug\net9.0\compressed\ebz8gutg39-2z0ns9nrw6.gz
+C:\Users\USER\OneDrive\Desktop\My CV Add Project\Student Management System\Student Management System\obj\Debug\net9.0\compressed\p12lnub737-muycvpuwrr.gz
+C:\Users\USER\OneDrive\Desktop\My CV Add Project\Student Management System\Student Management System\obj\Debug\net9.0\compressed\jwi61axd79-87fc7y1x7t.gz
+C:\Users\USER\OneDrive\Desktop\My CV Add Project\Student Management System\Student Management System\obj\Debug\net9.0\compressed\52lvy5fnxy-mlv21k5csn.gz
+C:\Users\USER\OneDrive\Desktop\My CV Add Project\Student Management System\Student Management System\obj\Debug\net9.0\compressed\6l0ym0ejfq-bzx4tfrdea.gz
+C:\Users\USER\OneDrive\Desktop\My CV Add Project\Student Management System\Student Management System\obj\Debug\net9.0\compressed\arj2k025nz-bzx4tfrdea.gz
+C:\Users\USER\OneDrive\Desktop\My CV Add Project\Student Management System\Student Management System\obj\Debug\net9.0\staticwebassets.build.json
+C:\Users\USER\OneDrive\Desktop\My CV Add Project\Student Management System\Student Management System\obj\Debug\net9.0\staticwebassets.build.json.cache
+C:\Users\USER\OneDrive\Desktop\My CV Add Project\Student Management System\Student Management System\obj\Debug\net9.0\staticwebassets.development.json
+C:\Users\USER\OneDrive\Desktop\My CV Add Project\Student Management System\Student Management System\obj\Debug\net9.0\staticwebassets.build.endpoints.json
+C:\Users\USER\OneDrive\Desktop\My CV Add Project\Student Management System\Student Management System\obj\Debug\net9.0\staticwebassets.upToDateCheck.txt
+C:\Users\USER\OneDrive\Desktop\My CV Add Project\Student Management System\Student Management System\obj\Debug\net9.0\Student Management System.dll
+C:\Users\USER\OneDrive\Desktop\My CV Add Project\Student Management System\Student Management System\obj\Debug\net9.0\refint\Student Management System.dll
+C:\Users\USER\OneDrive\Desktop\My CV Add Project\Student Management System\Student Management System\obj\Debug\net9.0\Student Management System.pdb
+C:\Users\USER\OneDrive\Desktop\My CV Add Project\Student Management System\Student Management System\obj\Debug\net9.0\Student Management System.genruntimeconfig.cache
+C:\Users\USER\OneDrive\Desktop\My CV Add Project\Student Management System\Student Management System\obj\Debug\net9.0\ref\Student Management System.dll
