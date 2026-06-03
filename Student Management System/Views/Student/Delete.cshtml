@@ -1,0 +1,102 @@
+﻿@model Student_Management_System.Models.Student
+
+@{
+    ViewData["Title"] = "Delete Student";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-lg-8 col-md-10">
+
+            <div class="card shadow">
+                <div class="card-header bg-danger text-white">
+                    <h3 class="mb-0">Delete Student</h3>
+                </div>
+
+                <div class="card-body">
+
+                    <div class="alert alert-warning">
+                        <strong>Warning!</strong> Are you sure you want to delete this student?
+                    </div>
+
+                    <form asp-action="ConfirmDelete" asp-controller="Student" method="post">
+
+                        <input type="hidden" asp-for="Id" />
+
+                        <div class="table-responsive">
+                            <table class="table table-bordered table-hover">
+                                <tbody>
+                                    <tr>
+                                        <th>Name</th>
+                                        <td>@Model.Name</td>
+                                    </tr>
+
+                                    <tr>
+                                        <th>Id</th>
+                                        <td>@Model.Id</td>
+                                    </tr>
+
+                                    <tr>
+                                        <th>Registration Number</th>
+                                        <td>@Model.RegistrationNumber</td>
+                                    </tr>
+
+                                    <tr>
+                                        <th>Email</th>
+                                        <td>@Model.Email</td>
+                                    </tr>
+
+                                    <tr>
+                                        <th>Department</th>
+                                        <td>@Model.Department?.Name</td>
+                                    </tr>
+
+                                    <tr>
+                                        <th>GPA</th>
+                                        <td>@Model.GPA</td>
+                                    </tr>
+
+                                    <tr>
+                                        <th>Gender</th>
+                                        <td>@Model.Gender</td>
+                                    </tr>
+
+                                    <tr>
+                                        <th>Address</th>
+                                        <td>@Model.Address</td>
+                                    </tr>
+
+                                    <tr>
+                                        <th>Date of Birth</th>
+                                        <td>@Model.DateOfBirth.ToString("dd-MM-yyyy")</td>
+                                    </tr>
+
+                                    <tr>
+                                        <th>Phone Number</th>
+                                        <td>@Model.PhoneNumber</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <div class="d-flex justify-content-between mt-4">
+                            <a asp-action="Index"
+                               asp-controller="Student"
+                               class="btn btn-secondary">
+                                Back To List
+                            </a>
+
+                            <button type="submit"
+                                    class="btn btn-danger">
+                                Confirm Delete
+                            </button>
+                        </div>
+
+                    </form>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>

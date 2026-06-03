@@ -97,6 +97,32 @@ namespace Student_Management_System.Controllers
         }
 
 
+        [HttpGet]
+
+        public IActionResult Delete(int id)
+        {
+            var student=_context.Students.Include(d => d.Department).FirstOrDefault(d => d.Id == id);
+            //var student = _context.Students.Find(id);
+            if (student != null)
+            {
+                return View(student);
+            }
+            return View(student);
+        }
+
+        [HttpPost]
+        public IActionResult ConfirmDelete(int id)
+        {
+            TempData["Success"] = "Student Delete Successfully!";
+            var student= _context.Students.Find(id);
+            if (student != null)
+            {
+                _context.Students.Remove(student);
+                _context.SaveChanges();
+                return RedirectToAction("Index");
+            }
+            return View(student);
+        }
 
     }
 }

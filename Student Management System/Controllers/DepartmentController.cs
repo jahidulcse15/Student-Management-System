@@ -79,8 +79,8 @@ namespace Student_Management_System.Controllers
         public IActionResult Delete(int id)
         {
 
-            var departments = _context.Departments.Include(s => s.Student).FirstOrDefault(s => s.Id == id);
-            var department = _context.Departments.Find(id);
+            var department = _context.Departments.Include(s => s.Student).FirstOrDefault(s => s.Id == id);
+            //var department = _context.Departments.Find(id);
             if (department != null)
             {
                 return View(department);
