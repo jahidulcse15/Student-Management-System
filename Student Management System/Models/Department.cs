@@ -9,5 +9,7 @@ namespace Student_Management_System.Models
         [Required(ErrorMessage = "Department Name is required")]
         [Display(Name= "Department Name")]
         public string Name { set; get; }
+
+        public List<Student>? Student { set; get; }
     }
 }

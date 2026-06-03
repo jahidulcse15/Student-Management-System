@@ -1,0 +1,101 @@
+﻿@model Student_Management_System.Models.Student
+
+@{
+    ViewData["Title"] = "Student Details";
+}
+
+<div class="container py-4">
+
+    <div class="row justify-content-center">
+
+        <div class="col-lg-8 col-md-10">
+
+            <div class="card shadow-lg border-0 rounded-4">
+
+                <div class="card-header bg-primary text-white text-center py-3">
+                    <h3 class="mb-0">Student Details</h3>
+                </div>
+
+                <div class="card-body">
+
+                    <div class="table-responsive">
+
+                        <table class="table table-bordered table-hover align-middle">
+
+                            <tr>
+                                <th>Name</th>
+                                <td>@Model.Name</td>
+                            </tr>
+
+                            <tr>
+                                <th>Id</th>
+                                <td>@Model.Id</td>
+                            </tr>
+
+                            <tr>
+                                <th>Registration Number</th>
+                                <td>@Model.RegistrationNumber</td>
+                            </tr>
+
+                            <tr>
+                                <th>Department</th>
+                                <td>
+                                    <span class="badge bg-success">
+                                        @Model.Department?.Name
+                                    </span>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <th>Gender</th>
+                                <td>@Model.Gender</td>
+                            </tr>
+
+                            <tr>
+                                <th>Email</th>
+                                <td>@Model.Email</td>
+                            </tr>
+
+                            <tr>
+                                <th>Phone Number</th>
+                                <td>@Model.PhoneNumber</td>
+                            </tr>
+
+                            <tr>
+                                <th>Date of Birth</th>
+                                <td>@Model.DateOfBirth.ToString("dd-MMM-yyyy")</td>
+                            </tr>
+
+                            <tr>
+                                <th>Address</th>
+                                <td>@Model.Address</td>
+                            </tr>
+
+                        </table>
+
+                    </div>
+
+                </div>
+
+                <div class="card-footer text-end">
+
+                    <a asp-action="Edit"
+                       asp-route-id="@Model.Id"
+                       class="btn btn-warning">
+                        Edit
+                    </a>
+
+                    <a asp-action="Index"
+                       class="btn btn-secondary">
+                        Back To List
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>

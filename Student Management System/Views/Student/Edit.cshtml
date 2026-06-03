@@ -1,19 +1,7 @@
 ﻿@model Student_Management_System.Models.Student
 
-
-
-@if (TempData["Success"] != null)
-{
-    <div class="alert alert-success alert-dismissible fade show">
-        @TempData["Success"]
-        <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
-    </div>
-}
-
-
-
 @{
-    ViewData["Title"] = "Create Student";
+    ViewData["Title"] = "Edit Student";
 }
 
 <div class="container py-4">
@@ -25,13 +13,15 @@
 
             <div class="card shadow-lg border-0 rounded-4">
 
-                <div class="card-header bg-primary text-white text-center py-3">
-                    <h3 class="mb-0">Create New Student</h3>
+                <div class="card-header bg-warning text-dark text-center py-3">
+                    <h3 class="mb-0">Edit Student</h3>
                 </div>
 
                 <div class="card-body p-4">
 
-                    <form asp-action="Create" asp-controller="Student" method="post">
+                    <form asp-action="Edit" asp-controller="Student" method="post">
+
+                        <input type="hidden" asp-for="Id" />
 
                         <div asp-validation-summary="ModelOnly" class="text-danger mb-3"></div>
 
@@ -64,10 +54,9 @@
                             <div class="col-md-6 mb-3">
                                 <label asp-for="Gender" class="form-label"></label>
                                 <select asp-for="Gender" class="form-select">
-                                    <option value="">Select Gender</option>
                                     <option>Male</option>
                                     <option>Female</option>
-                                    <option>Other</option>
+                                    <option>Others</option>
                                 </select>
                                 <span asp-validation-for="Gender" class="text-danger"></span>
                             </div>
@@ -102,13 +91,15 @@
 
                         </div>
 
-                        <div class="d-flex flex-column flex-md-row gap-2 mt-3">
+                        <div class="d-flex flex-column flex-md-row gap-2 mt-4">
 
                             <button type="submit" class="btn btn-success flex-fill">
-                                Save Student
+                                Save Changes
                             </button>
 
-                            <a asp-action="Index" class="btn btn-secondary flex-fill">
+                            <a asp-action="Index"
+                               asp-controller="Student"
+                               class="btn btn-secondary flex-fill">
                                 Back To List
                             </a>
 
@@ -127,6 +118,7 @@
 
 </div>
 
-@section Scripts {
+@section Scripts
+{
     <partial name="_ValidationScriptsPartial" />
 }

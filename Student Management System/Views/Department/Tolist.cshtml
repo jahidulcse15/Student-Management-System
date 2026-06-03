@@ -1,0 +1,38 @@
+﻿@model List<Student_Management_System.Models.Department>
+
+<div class="container mt-4">
+
+    <h2 class="text-center mb-4">All Enrollment Students</h2>
+
+    <div class="table-responsive">
+
+        <table class="table table-bordered table-hover text-center align-middle shadow">
+
+            <thead class="table-dark">
+                <tr>
+                    <th>Id</th>
+                    <th>Department Name</th>
+                    <th>Total Students</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.Id</td>
+                        <td>@item.Name</td>
+                        <td>
+                            <span class="badge bg-primary fs-6">
+                                @item.Student.Count()
+                            </span>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+
+        </table>
+
+    </div>
+
+</div>

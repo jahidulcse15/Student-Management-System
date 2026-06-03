@@ -44,6 +44,6 @@ namespace Student_Management_System.Models
         [Display(Name = "Department")]
         public int DepartmentId { get; set; }
 
-        public Department Department { get; set; }
+        public Department? Department { get; set; }
     }
 }
