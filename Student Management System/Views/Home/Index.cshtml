@@ -1,97 +1,153 @@
-﻿<!DOCTYPE html>
+﻿@model List<Student_Management_System.Models.Department>
+
+@{
+    double TotalStudent = 0;
+    double TotalDepartment = 0;
+    double HeistCgpa = 0;
+    double LowestCgpa = Double.MaxValue;
+    double SumCgpa = 0;
+}
+
+@{
+    foreach (var item in ViewBag.AllStudentList)
+    {
+        SumCgpa += item.GPA;
+        HeistCgpa = Math.Max(HeistCgpa, item.GPA);
+        LowestCgpa = Math.Min(LowestCgpa, item.GPA);
+    }
+}
+
+<!DOCTYPE html>
 <html>
 <head>
     <title>Student Management Dashboard</title>
 
-    <!-- Bootstrap CDN -->
-    
+
 </head>
 
 <body class="bg-light">
 
-    <!-- Title -->
     <div class="container mt-4">
-        <h2 class="text-center fw-bold text-primary">
+
+        <h2 class="text-center fw-bold text-primary mb-4">
             Student Management System Dashboard
         </h2>
-    </div>
 
-    <div class="container mt-4">
+        @* ================= CALCULATION ================= *@
+        @{
+            foreach (var item in Model)
+            {
+                TotalDepartment++;
 
-        <!-- Cards Row -->
+                if (item.Student != null)
+                {
+                    TotalStudent += item.Student.Count();
+                }
+            }
+        }
+
+        @* ================= CARDS (ONE ROW) ================= *@
         <div class="row g-3">
 
-            <div class="col-md-3">
+            <!-- Total Students -->
+            <div class="col">
                 <div class="card shadow-sm border-0 text-center bg-primary text-white">
                     <div class="card-body">
-                        <h2 class="fw-bold">120</h2>
-                        <p>Total Students</p>
+                        <h5>Total Students</h5>
+                        <h2 class="fw-bold">@TotalStudent</h2>
                     </div>
                 </div>
             </div>
 
-            <div class="col-md-3">
+            <!-- Total Departments -->
+            <div class="col">
                 <div class="card shadow-sm border-0 text-center bg-success text-white">
                     <div class="card-body">
-                        <h2 class="fw-bold">5</h2>
-                        <p>Total Departments</p>
+                        <h5>Total Departments</h5>
+                        <h2 class="fw-bold">@TotalDepartment</h2>
                     </div>
                 </div>
             </div>
 
-            <div class="col-md-3">
+            <!-- Average CGPA -->
+            <div class="col">
                 <div class="card shadow-sm border-0 text-center bg-warning text-dark">
                     <div class="card-body">
-                        <h2 class="fw-bold">3.45</h2>
-                        <p>Average CGPA</p>
+                        <h5>Average CGPA</h5>
+
+                        <h2 class="fw-bold">
+                            @(TotalStudent > 0
+                                                        ? (SumCgpa / TotalStudent).ToString("F2")
+                                                        : "0.00")
+                        </h2>
+
                     </div>
                 </div>
             </div>
 
-            <div class="col-md-3">
+            <!-- Highest CGPA -->
+            <div class="col">
                 <div class="card shadow-sm border-0 text-center bg-danger text-white">
                     <div class="card-body">
-                        <h2 class="fw-bold">4.00</h2>
-                        <p>Highest CGPA</p>
+                        <h5>Highest CGPA</h5>
+                        <h2 class="fw-bold">@HeistCgpa</h2>
                     </div>
                 </div>
             </div>
+
+            <!-- Lowest CGPA -->
+            <div class="col">
+                <div class="card shadow-sm border-0 text-center bg-dark text-white">
+                    <div class="card-body">
+                        <h5>Lowest CGPA</h5>
+                        <h2 class="fw-bold">@LowestCgpa</h2>
+                    </div>
+                </div>
+            </div>
+
+            
 
         </div>
 
-        <!-- Table Section -->
+        @* ================= TABLE ================= *@
         <div class="card shadow-sm border-0 mt-4">
+
+            <div class="card-header bg-primary text-white">
+                <h5 class="mb-0">Recently Added Students</h5>
+            </div>
+
             <div class="card-body">
 
-                <h5 class="mb-3 fw-bold">Recently Added Students</h5>
+                <div class="table-responsive">
 
-                <table class="table table-hover table-striped">
-                    <thead class="table-dark">
-                        <tr>
-                            <th>Name</th>
-                            <th>Department</th>
-                            <th>CGPA</th>
-                        </tr>
-                    </thead>
+                    <table class="table table-hover table-striped align-middle">
 
-                    <tbody>
-                        <tr>
-                            <td>Jahid</td>
-                            <td>CSE</td>
-                            <td>3.80</td>
-                        </tr>
-                        <tr>
-                            <td>Karim</td>
-                            <td>EEE</td>
-                            <td>3.60</td>
-                        </tr>
-                        <tr>
-                            <td>Rahim</td>
-                            <td>BBA</td>
-                            <td>3.70</td>
-                        </tr>
-                    </tbody>
-                </table>
+                        <thead class="table-dark">
+                            <tr>
+                                <th>Name</th>
+                                <th>Department</th>
+                                <th>CGPA</th>
+                            </tr>
+                        </thead>
+
+                        <tbody>
+                            @foreach (var item in ViewBag.StudentList)
+                            {
+                                <tr>
+                                    <td>@item.Name</td>
+                                    <td>@item.Department?.Name</td>
+                                    <td>
+                                        <span class="badge bg-success">
+                                            @item.GPA
+                                        </span>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+
+                    </table>
+
+                </div>
 
             </div>
         </div>

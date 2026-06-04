@@ -3,76 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\USER\\OneDrive\\Desktop\\My CV Add Project\\Student Management System\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{8F6C8F9F-C206-4753-9693-8F420EAC4C59}|Student Management System\\Student Management System.csproj|c:\\users\\user\\onedrive\\desktop\\my cv add project\\student management system\\student management system\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F6C8F9F-C206-4753-9693-8F420EAC4C59}|Student Management System\\Student Management System.csproj|solutionrelative:student management system\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F6C8F9F-C206-4753-9693-8F420EAC4C59}|Student Management System\\Student Management System.csproj|c:\\users\\user\\onedrive\\desktop\\my cv add project\\student management system\\student management system\\views\\student\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8F6C8F9F-C206-4753-9693-8F420EAC4C59}|Student Management System\\Student Management System.csproj|solutionrelative:student management system\\views\\student\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F6C8F9F-C206-4753-9693-8F420EAC4C59}|Student Management System\\Student Management System.csproj|c:\\users\\user\\onedrive\\desktop\\my cv add project\\student management system\\student management system\\views\\department\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8F6C8F9F-C206-4753-9693-8F420EAC4C59}|Student Management System\\Student Management System.csproj|solutionrelative:student management system\\views\\department\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F6C8F9F-C206-4753-9693-8F420EAC4C59}|Student Management System\\Student Management System.csproj|c:\\users\\user\\onedrive\\desktop\\my cv add project\\student management system\\student management system\\views\\department\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8F6C8F9F-C206-4753-9693-8F420EAC4C59}|Student Management System\\Student Management System.csproj|solutionrelative:student management system\\views\\department\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F6C8F9F-C206-4753-9693-8F420EAC4C59}|Student Management System\\Student Management System.csproj|c:\\users\\user\\onedrive\\desktop\\my cv add project\\student management system\\student management system\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F6C8F9F-C206-4753-9693-8F420EAC4C59}|Student Management System\\Student Management System.csproj|solutionrelative:student management system\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F6C8F9F-C206-4753-9693-8F420EAC4C59}|Student Management System\\Student Management System.csproj|c:\\users\\user\\onedrive\\desktop\\my cv add project\\student management system\\student management system\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F6C8F9F-C206-4753-9693-8F420EAC4C59}|Student Management System\\Student Management System.csproj|solutionrelative:student management system\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F6C8F9F-C206-4753-9693-8F420EAC4C59}|Student Management System\\Student Management System.csproj|c:\\users\\user\\onedrive\\desktop\\my cv add project\\student management system\\student management system\\views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8F6C8F9F-C206-4753-9693-8F420EAC4C59}|Student Management System\\Student Management System.csproj|solutionrelative:student management system\\views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F6C8F9F-C206-4753-9693-8F420EAC4C59}|Student Management System\\Student Management System.csproj|c:\\users\\user\\onedrive\\desktop\\my cv add project\\student management system\\student management system\\views\\student\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8F6C8F9F-C206-4753-9693-8F420EAC4C59}|Student Management System\\Student Management System.csproj|solutionrelative:student management system\\views\\student\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F6C8F9F-C206-4753-9693-8F420EAC4C59}|Student Management System\\Student Management System.csproj|c:\\users\\user\\onedrive\\desktop\\my cv add project\\student management system\\student management system\\views\\student\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8F6C8F9F-C206-4753-9693-8F420EAC4C59}|Student Management System\\Student Management System.csproj|solutionrelative:student management system\\views\\student\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F6C8F9F-C206-4753-9693-8F420EAC4C59}|Student Management System\\Student Management System.csproj|c:\\users\\user\\onedrive\\desktop\\my cv add project\\student management system\\student management system\\views\\department\\tolist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8F6C8F9F-C206-4753-9693-8F420EAC4C59}|Student Management System\\Student Management System.csproj|solutionrelative:student management system\\views\\department\\tolist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F6C8F9F-C206-4753-9693-8F420EAC4C59}|Student Management System\\Student Management System.csproj|c:\\users\\user\\onedrive\\desktop\\my cv add project\\student management system\\student management system\\views\\department\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8F6C8F9F-C206-4753-9693-8F420EAC4C59}|Student Management System\\Student Management System.csproj|solutionrelative:student management system\\views\\department\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F6C8F9F-C206-4753-9693-8F420EAC4C59}|Student Management System\\Student Management System.csproj|c:\\users\\user\\onedrive\\desktop\\my cv add project\\student management system\\student management system\\views\\department\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8F6C8F9F-C206-4753-9693-8F420EAC4C59}|Student Management System\\Student Management System.csproj|solutionrelative:student management system\\views\\department\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F6C8F9F-C206-4753-9693-8F420EAC4C59}|Student Management System\\Student Management System.csproj|c:\\users\\user\\onedrive\\desktop\\my cv add project\\student management system\\student management system\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{8F6C8F9F-C206-4753-9693-8F420EAC4C59}|Student Management System\\Student Management System.csproj|solutionrelative:student management system\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{8F6C8F9F-C206-4753-9693-8F420EAC4C59}|Student Management System\\Student Management System.csproj|c:\\users\\user\\onedrive\\desktop\\my cv add project\\student management system\\student management system\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{8F6C8F9F-C206-4753-9693-8F420EAC4C59}|Student Management System\\Student Management System.csproj|solutionrelative:student management system\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F6C8F9F-C206-4753-9693-8F420EAC4C59}|Student Management System\\Student Management System.csproj|c:\\users\\user\\onedrive\\desktop\\my cv add project\\student management system\\student management system\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F6C8F9F-C206-4753-9693-8F420EAC4C59}|Student Management System\\Student Management System.csproj|solutionrelative:student management system\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8F6C8F9F-C206-4753-9693-8F420EAC4C59}|Student Management System\\Student Management System.csproj|c:\\users\\user\\onedrive\\desktop\\my cv add project\\student management system\\student management system\\views\\department\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{8F6C8F9F-C206-4753-9693-8F420EAC4C59}|Student Management System\\Student Management System.csproj|solutionrelative:student management system\\views\\department\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8F6C8F9F-C206-4753-9693-8F420EAC4C59}|Student Management System\\Student Management System.csproj|c:\\users\\user\\onedrive\\desktop\\my cv add project\\student management system\\student management system\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{8F6C8F9F-C206-4753-9693-8F420EAC4C59}|Student Management System\\Student Management System.csproj|solutionrelative:student management system\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F6C8F9F-C206-4753-9693-8F420EAC4C59}|Student Management System\\Student Management System.csproj|c:\\users\\user\\onedrive\\desktop\\my cv add project\\student management system\\student management system\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F6C8F9F-C206-4753-9693-8F420EAC4C59}|Student Management System\\Student Management System.csproj|solutionrelative:student management system\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8F6C8F9F-C206-4753-9693-8F420EAC4C59}|Student Management System\\Student Management System.csproj|c:\\users\\user\\onedrive\\desktop\\my cv add project\\student management system\\student management system\\migrations\\20260601161301_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8F6C8F9F-C206-4753-9693-8F420EAC4C59}|Student Management System\\Student Management System.csproj|solutionrelative:student management system\\migrations\\20260601161301_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8F6C8F9F-C206-4753-9693-8F420EAC4C59}|Student Management System\\Student Management System.csproj|c:\\users\\user\\onedrive\\desktop\\my cv add project\\student management system\\student management system\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8F6C8F9F-C206-4753-9693-8F420EAC4C59}|Student Management System\\Student Management System.csproj|solutionrelative:student management system\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -82,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -90,226 +30,42 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Tolist.cshtml",
-              "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Desktop\\My CV Add Project\\Student Management System\\Student Management System\\Views\\Department\\Tolist.cshtml",
-              "RelativeDocumentMoniker": "Student Management System\\Views\\Department\\Tolist.cshtml",
-              "ToolTip": "C:\\Users\\USER\\OneDrive\\Desktop\\My CV Add Project\\Student Management System\\Student Management System\\Views\\Department\\Tolist.cshtml",
-              "RelativeToolTip": "Student Management System\\Views\\Department\\Tolist.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAA3AAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Desktop\\My CV Add Project\\Student Management System\\Student Management System\\Views\\Department\\Index.cshtml",
+              "RelativeDocumentMoniker": "Student Management System\\Views\\Department\\Index.cshtml",
+              "ToolTip": "C:\\Users\\USER\\OneDrive\\Desktop\\My CV Add Project\\Student Management System\\Student Management System\\Views\\Department\\Index.cshtml",
+              "RelativeToolTip": "Student Management System\\Views\\Department\\Index.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAE8AAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-02T18:41:54.38Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "StudentController.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Desktop\\My CV Add Project\\Student Management System\\Student Management System\\Controllers\\StudentController.cs",
-              "RelativeDocumentMoniker": "Student Management System\\Controllers\\StudentController.cs",
-              "ToolTip": "C:\\Users\\USER\\OneDrive\\Desktop\\My CV Add Project\\Student Management System\\Student Management System\\Controllers\\StudentController.cs",
-              "RelativeToolTip": "Student Management System\\Controllers\\StudentController.cs",
-              "ViewState": "AgIAAGoAAAAAAAAAAAAkwHMAAABBAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-01T17:06:05.758Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Desktop\\My CV Add Project\\Student Management System\\Student Management System\\Views\\Department\\Delete.cshtml",
-              "RelativeDocumentMoniker": "Student Management System\\Views\\Department\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\USER\\OneDrive\\Desktop\\My CV Add Project\\Student Management System\\Student Management System\\Views\\Department\\Delete.cshtml",
-              "RelativeToolTip": "Student Management System\\Views\\Department\\Delete.cshtml",
-              "ViewState": "AgIAADgAAAAAAAAAAADwv0oAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-03T10:52:53.814Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "DepartmentController.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Desktop\\My CV Add Project\\Student Management System\\Student Management System\\Controllers\\DepartmentController.cs",
-              "RelativeDocumentMoniker": "Student Management System\\Controllers\\DepartmentController.cs",
-              "ToolTip": "C:\\Users\\USER\\OneDrive\\Desktop\\My CV Add Project\\Student Management System\\Student Management System\\Controllers\\DepartmentController.cs",
-              "RelativeToolTip": "Student Management System\\Controllers\\DepartmentController.cs",
-              "ViewState": "AgIAAEkAAAAAAAAAAAAAAFQAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-01T20:24:11.63Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Desktop\\My CV Add Project\\Student Management System\\Student Management System\\Views\\Student\\Create.cshtml",
-              "RelativeDocumentMoniker": "Student Management System\\Views\\Student\\Create.cshtml",
-              "ToolTip": "C:\\Users\\USER\\OneDrive\\Desktop\\My CV Add Project\\Student Management System\\Student Management System\\Views\\Student\\Create.cshtml",
-              "RelativeToolTip": "Student Management System\\Views\\Student\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-01T18:53:21.853Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Desktop\\My CV Add Project\\Student Management System\\Student Management System\\Views\\Student\\Edit.cshtml",
-              "RelativeDocumentMoniker": "Student Management System\\Views\\Student\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\USER\\OneDrive\\Desktop\\My CV Add Project\\Student Management System\\Student Management System\\Views\\Student\\Edit.cshtml",
-              "RelativeToolTip": "Student Management System\\Views\\Student\\Edit.cshtml",
-              "ViewState": "AgIAAFQAAAAAAAAAAAAAAGoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-03T12:30:30.839Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Student.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Desktop\\My CV Add Project\\Student Management System\\Student Management System\\Models\\Student.cs",
-              "RelativeDocumentMoniker": "Student Management System\\Models\\Student.cs",
-              "ToolTip": "C:\\Users\\USER\\OneDrive\\Desktop\\My CV Add Project\\Student Management System\\Student Management System\\Models\\Student.cs",
-              "RelativeToolTip": "Student Management System\\Models\\Student.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAA2wCcAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-01T15:20:47.992Z",
+              "WhenOpened": "2026-06-04T11:37:35.293Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Desktop\\My CV Add Project\\Student Management System\\Student Management System\\Views\\Department\\Edit.cshtml",
-              "RelativeDocumentMoniker": "Student Management System\\Views\\Department\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\USER\\OneDrive\\Desktop\\My CV Add Project\\Student Management System\\Student Management System\\Views\\Department\\Edit.cshtml",
-              "RelativeToolTip": "Student Management System\\Views\\Department\\Edit.cshtml",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-02T12:17:10.483Z",
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Desktop\\My CV Add Project\\Student Management System\\Student Management System\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Student Management System\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\USER\\OneDrive\\Desktop\\My CV Add Project\\Student Management System\\Student Management System\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Student Management System\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-06-04T09:56:42.024Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Desktop\\My CV Add Project\\Student Management System\\Student Management System\\Views\\Student\\Delete.cshtml",
-              "RelativeDocumentMoniker": "Student Management System\\Views\\Student\\Delete.cshtml",
-              "ToolTip": "C:\\Users\\USER\\OneDrive\\Desktop\\My CV Add Project\\Student Management System\\Student Management System\\Views\\Student\\Delete.cshtml",
-              "RelativeToolTip": "Student Management System\\Views\\Student\\Delete.cshtml",
-              "ViewState": "AgIAAFkAAAAAAAAAAADwv2UAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-03T16:07:58.789Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Desktop\\My CV Add Project\\Student Management System\\Student Management System\\Views\\Student\\Index.cshtml",
-              "RelativeDocumentMoniker": "Student Management System\\Views\\Student\\Index.cshtml",
-              "ToolTip": "C:\\Users\\USER\\OneDrive\\Desktop\\My CV Add Project\\Student Management System\\Student Management System\\Views\\Student\\Index.cshtml",
-              "RelativeToolTip": "Student Management System\\Views\\Student\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-01T18:04:46.074Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Desktop\\My CV Add Project\\Student Management System\\Student Management System\\Views\\Department\\Details.cshtml",
-              "RelativeDocumentMoniker": "Student Management System\\Views\\Department\\Details.cshtml",
-              "ToolTip": "C:\\Users\\USER\\OneDrive\\Desktop\\My CV Add Project\\Student Management System\\Student Management System\\Views\\Department\\Details.cshtml",
-              "RelativeToolTip": "Student Management System\\Views\\Department\\Details.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-02T13:25:40.34Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Desktop\\My CV Add Project\\Student Management System\\Student Management System\\Views\\Department\\Create.cshtml",
-              "RelativeDocumentMoniker": "Student Management System\\Views\\Department\\Create.cshtml",
-              "ToolTip": "C:\\Users\\USER\\OneDrive\\Desktop\\My CV Add Project\\Student Management System\\Student Management System\\Views\\Department\\Create.cshtml",
-              "RelativeToolTip": "Student Management System\\Views\\Department\\Create.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-02T11:11:47.72Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "20260601161301_Initial.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Desktop\\My CV Add Project\\Student Management System\\Student Management System\\Migrations\\20260601161301_Initial.cs",
-              "RelativeDocumentMoniker": "Student Management System\\Migrations\\20260601161301_Initial.cs",
-              "ToolTip": "C:\\Users\\USER\\OneDrive\\Desktop\\My CV Add Project\\Student Management System\\Student Management System\\Migrations\\20260601161301_Initial.cs",
-              "RelativeToolTip": "Student Management System\\Migrations\\20260601161301_Initial.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-01T16:13:03.475Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Desktop\\My CV Add Project\\Student Management System\\Student Management System\\Program.cs",
-              "RelativeDocumentMoniker": "Student Management System\\Program.cs",
-              "ToolTip": "C:\\Users\\USER\\OneDrive\\Desktop\\My CV Add Project\\Student Management System\\Student Management System\\Program.cs",
-              "RelativeToolTip": "Student Management System\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-01T16:03:27.445Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Desktop\\My CV Add Project\\Student Management System\\Student Management System\\appsettings.json",
-              "RelativeDocumentMoniker": "Student Management System\\appsettings.json",
-              "ToolTip": "C:\\Users\\USER\\OneDrive\\Desktop\\My CV Add Project\\Student Management System\\Student Management System\\appsettings.json",
-              "RelativeToolTip": "Student Management System\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAACVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-06-01T16:00:37.688Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Desktop\\My CV Add Project\\Student Management System\\Student Management System\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "Student Management System\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\USER\\OneDrive\\Desktop\\My CV Add Project\\Student Management System\\Student Management System\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "Student Management System\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-06-01T15:59:25.982Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Desktop\\My CV Add Project\\Student Management System\\Student Management System\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Student Management System\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\USER\\OneDrive\\Desktop\\My CV Add Project\\Student Management System\\Student Management System\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Student Management System\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAACoAAAAAAAAAAAAAAC8AAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-01T14:11:23.946Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 0,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\USER\\OneDrive\\Desktop\\My CV Add Project\\Student Management System\\Student Management System\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Student Management System\\Views\\Home\\Index.cshtml",
               "ToolTip": "C:\\Users\\USER\\OneDrive\\Desktop\\My CV Add Project\\Student Management System\\Student Management System\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "Student Management System\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-06-01T13:55:59.609Z"
+              "WhenOpened": "2026-06-04T09:55:56.244Z",
+              "EditorCaption": ""
             }
           ]
         },
