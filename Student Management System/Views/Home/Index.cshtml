@@ -1,158 +1,187 @@
 ﻿@model List<Student_Management_System.Models.Department>
 
 @{
+    ViewData["Title"] = "Dashboard";
+
     double TotalStudent = 0;
     double TotalDepartment = 0;
-    double HeistCgpa = 0;
+    double HighestCgpa = 0;
     double LowestCgpa = Double.MaxValue;
     double SumCgpa = 0;
+
+    int male = 0;
+    int female = 0;
 }
 
 @{
     foreach (var item in ViewBag.AllStudentList)
     {
         SumCgpa += item.GPA;
-        HeistCgpa = Math.Max(HeistCgpa, item.GPA);
+
+        HighestCgpa = Math.Max(HighestCgpa, item.GPA);
         LowestCgpa = Math.Min(LowestCgpa, item.GPA);
+
+        if (item.Gender == "Male")
+        {
+            male++;
+        }
+        else if (item.Gender == "Female")
+        {
+            female++;
+        }
     }
 }
 
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Student Management Dashboard</title>
+@{
+    foreach (var item in Model)
+    {
+        TotalDepartment++;
 
-
-</head>
-
-<body class="bg-light">
-
-    <div class="container mt-4">
-
-        <h2 class="text-center fw-bold text-primary mb-4">
-            Student Management System Dashboard
-        </h2>
-
-        @* ================= CALCULATION ================= *@
-        @{
-            foreach (var item in Model)
-            {
-                TotalDepartment++;
-
-                if (item.Student != null)
-                {
-                    TotalStudent += item.Student.Count();
-                }
-            }
+        if (item.Student != null)
+        {
+            TotalStudent += item.Student.Count();
         }
+    }
+}
 
-        @* ================= CARDS (ONE ROW) ================= *@
-        <div class="row g-3">
+<div class="container-fluid py-4">
 
-            <!-- Total Students -->
-            <div class="col">
-                <div class="card shadow-sm border-0 text-center bg-primary text-white">
-                    <div class="card-body">
-                        <h5>Total Students</h5>
-                        <h2 class="fw-bold">@TotalStudent</h2>
-                    </div>
+    <div class="text-center mb-4">
+        <h1 class="fw-bold text-primary">
+            Student Management Dashboard
+        </h1>
+        <h3 class="text-muted">
+            Overview of Students and Departments
+        </h3>
+    </div>
+
+    <!-- Statistics Cards -->
+    <div class="row g-4">
+
+        <div class="col-12 col-sm-6 col-md-4 col-xl">
+            <div class="card border-0 shadow h-100 bg-primary text-white">
+                <div class="card-body text-center">
+                    <h5>Total Students</h5>
+                    <h2 class="fw-bold">@TotalStudent</h2>
                 </div>
             </div>
-
-            <!-- Total Departments -->
-            <div class="col">
-                <div class="card shadow-sm border-0 text-center bg-success text-white">
-                    <div class="card-body">
-                        <h5>Total Departments</h5>
-                        <h2 class="fw-bold">@TotalDepartment</h2>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Average CGPA -->
-            <div class="col">
-                <div class="card shadow-sm border-0 text-center bg-warning text-dark">
-                    <div class="card-body">
-                        <h5>Average CGPA</h5>
-
-                        <h2 class="fw-bold">
-                            @(TotalStudent > 0
-                                                        ? (SumCgpa / TotalStudent).ToString("F2")
-                                                        : "0.00")
-                        </h2>
-
-                    </div>
-                </div>
-            </div>
-
-            <!-- Highest CGPA -->
-            <div class="col">
-                <div class="card shadow-sm border-0 text-center bg-danger text-white">
-                    <div class="card-body">
-                        <h5>Highest CGPA</h5>
-                        <h2 class="fw-bold">@HeistCgpa</h2>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Lowest CGPA -->
-            <div class="col">
-                <div class="card shadow-sm border-0 text-center bg-dark text-white">
-                    <div class="card-body">
-                        <h5>Lowest CGPA</h5>
-                        <h2 class="fw-bold">@LowestCgpa</h2>
-                    </div>
-                </div>
-            </div>
-
-            
-
         </div>
 
-        @* ================= TABLE ================= *@
-        <div class="card shadow-sm border-0 mt-4">
-
-            <div class="card-header bg-primary text-white">
-                <h5 class="mb-0">Recently Added Students</h5>
-            </div>
-
-            <div class="card-body">
-
-                <div class="table-responsive">
-
-                    <table class="table table-hover table-striped align-middle">
-
-                        <thead class="table-dark">
-                            <tr>
-                                <th>Name</th>
-                                <th>Department</th>
-                                <th>CGPA</th>
-                            </tr>
-                        </thead>
-
-                        <tbody>
-                            @foreach (var item in ViewBag.StudentList)
-                            {
-                                <tr>
-                                    <td>@item.Name</td>
-                                    <td>@item.Department?.Name</td>
-                                    <td>
-                                        <span class="badge bg-success">
-                                            @item.GPA
-                                        </span>
-                                    </td>
-                                </tr>
-                            }
-                        </tbody>
-
-                    </table>
-
+        <div class="col-12 col-sm-6 col-md-4 col-xl">
+            <div class="card border-0 shadow h-100 bg-success text-white">
+                <div class="card-body text-center">
+                    <h5>Total Departments</h5>
+                    <h2 class="fw-bold">@TotalDepartment</h2>
                 </div>
+            </div>
+        </div>
 
+        <div class="col-12 col-sm-6 col-md-4 col-xl">
+            <div class="card border-0 shadow h-100 bg-warning text-dark">
+                <div class="card-body text-center">
+                    <h5>Average CGPA</h5>
+                    <h2 class="fw-bold">
+                        @(TotalStudent > 0
+                                                ? (SumCgpa / TotalStudent).ToString("F2")
+                                                : "0.00")
+                    </h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-4 col-xl">
+            <div class="card border-0 shadow h-100 bg-danger text-white">
+                <div class="card-body text-center">
+                    <h5>Highest CGPA</h5>
+                    <h2 class="fw-bold">@HighestCgpa</h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-4 col-xl">
+            <div class="card border-0 shadow h-100 bg-dark text-white">
+                <div class="card-body text-center">
+                    <h5>Lowest CGPA</h5>
+                    <h2 class="fw-bold">
+                        @(LowestCgpa == Double.MaxValue ? 0 : LowestCgpa)
+                    </h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-4 col-xl">
+            <div class="card border-0 shadow h-100 bg-info text-white">
+                <div class="card-body text-center">
+                    <h5>Male Students</h5>
+                    <h2 class="fw-bold">@male</h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-4 col-xl">
+            <div class="card border-0 shadow h-100 bg-secondary text-white">
+                <div class="card-body text-center">
+                    <h5>Female Students</h5>
+                    <h2 class="fw-bold">@female</h2>
+                </div>
             </div>
         </div>
 
     </div>
 
-</body>
-</html>
+    <!-- Recently Added Students -->
+    <div class="card border-0 shadow mt-5">
+
+        <div class="card-header bg-primary text-white">
+            <h4 class="mb-0">
+                Recently Added Students
+            </h4>
+        </div>
+
+        <div class="card-body">
+
+            <div class="table-responsive">
+
+                <table class="table table-hover table-striped align-middle">
+
+                    <thead class="table-dark">
+                        <tr>
+                            <th>Name</th>
+                            <th>Department</th>
+                            <th>CGPA</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+
+                        @if (ViewBag.StudentList != null)
+                        {
+                            @foreach (var item in ViewBag.StudentList)
+                            {
+                                <tr>
+                                    <td>@item.Name</td>
+
+                                    <td>
+                                        @item.Department?.Name
+                                    </td>
+
+                                    <td>
+                                        <span class="badge bg-success fs-6">
+                                            @item.GPA
+                                        </span>
+                                    </td>
+                                </tr>
+                            }
+                        }
+
+                    </tbody>
+
+                </table>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>

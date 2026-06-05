@@ -1,0 +1,42 @@
+﻿@model List<Student_Management_System.Models.Student>
+
+<div class="container mt-4">
+
+    <h3 class="mb-3 text-primary">Search Results</h3>
+
+    <div class="table-responsive shadow-sm">
+
+        <table class="table table-striped table-hover table-bordered align-middle">
+
+            <thead class="table-dark">
+                <tr>
+                    <th>Name</th>
+                    <th>Department</th>
+                    <th>Email</th>
+                    <th>Registration</th>
+                    <th>Phone</th>
+                    <th>Gender</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@item.Name</td>
+                        <td>@item.Department?.Name</td>
+                        <td>@item.Email</td>
+                        <td>@item.RegistrationNumber</td>
+                        <td>@item.PhoneNumber</td>
+                        <td>@item.Gender</td>
+                    </tr>
+                }
+            </tbody>
+
+        </table>
+
+    </div>
+
+    <a asp-action="Index" asp-controller="Student" class="btn btn-primary">Backto List</a>
+
+</div>

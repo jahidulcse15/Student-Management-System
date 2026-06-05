@@ -1,0 +1,18 @@
+﻿@model Student_Management_System.Models.Student
+
+
+<div class="container mt-4">
+
+    @if (ViewBag.StudentNotFound != null)
+    {
+        <div class="alert alert-danger text-center shadow-sm" role="alert">
+            <h5 class="mb-0">
+                @ViewBag.StudentNotFound!
+            </h5>
+        </div>
+    }
+
+</div>
+<div class="container">
+    <a asp-action="Index" asp-controller="Student" class="btn btn-primary">Backto List</a>
+</div>

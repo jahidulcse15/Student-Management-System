@@ -14,7 +14,36 @@
 @{
     ViewData["Title"] = "Students List";
 }
-<h1>@TempData["StudentNotAdd"]</h1>
+
+
+<div class="container mt-4">
+
+    <div class="card shadow-sm p-4">
+
+        <h5 class="mb-3 text-primary">Search Student</h5>
+
+        <form asp-action="SearchStudent" asp-controller="Student" method="post">
+
+            <div class="input-group">
+
+                <input name="searchTerm"
+                       type="search"
+                       class="form-control"
+                       placeholder="Search by Name, Email, Phone, Registration" />
+
+                <button type="submit" class="btn btn-primary">
+                    Search
+                </button>
+
+            </div>
+
+        </form>
+
+    </div>
+
+</div>
+
+
 <div class="container mt-4">
 
     <div class="card shadow">

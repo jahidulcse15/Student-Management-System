@@ -16,8 +16,8 @@ namespace Student_Management_System.Controllers
         public IActionResult Index()
         {
             var students = _context.Students
-        .Include(s => s.Department)
-        .ToList();
+            .Include(s => s.Department)
+            .ToList();
 
             return View(students);
         }
@@ -76,6 +76,7 @@ namespace Student_Management_System.Controllers
             if (ModelState.IsValid)
             {
                 TempData["Success"] = "Student Edited Successfully!";
+                _context.Students.Update(student);
                 _context.SaveChanges();
                 return RedirectToAction("Index");
             }
@@ -120,6 +121,22 @@ namespace Student_Management_System.Controllers
                 _context.Students.Remove(student);
                 _context.SaveChanges();
                 return RedirectToAction("Index");
+            }
+            return View(student);
+        }
+        [HttpPost]
+        public IActionResult SearchStudent(string searchTerm)
+        {
+            var student = _context.Students.Include(s => s.Department).
+                Where(s => s.Name.Contains(searchTerm) || s.RegistrationNumber.Contains(searchTerm) ||
+                s.Email.Contains(searchTerm) || s.PhoneNumber.Contains(searchTerm)
+                ||s.Department.Name.Contains(searchTerm)||s.Gender==searchTerm).ToList();
+            
+            
+            if (student.Count() == 0)
+            {
+                ViewBag.StudentNotFound = "No matching student found. Please try different keywords.";
+                return View("NotFound");
             }
             return View(student);
         }

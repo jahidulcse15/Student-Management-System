@@ -24,7 +24,7 @@ namespace Student_Management_System.Controllers
         {
             var student = _context.Departments.Include(d=>d.Student).ToList();
             ViewBag.StudentList = _context.Students.Include(s => s.Department).OrderByDescending(s=>s.Id).Take(5).ToList();
-            ViewBag.DepartmentStudent = _context.Students.Include(d => d.Department).ToList();
+            //ViewBag.DepartmentStudent = _context.Students.Include(d => d.Department).ToList();
             ViewBag.AllStudentList = _context.Students.ToList();
             return View(student);
         }
